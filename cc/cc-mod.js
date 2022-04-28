@@ -6,14 +6,7 @@ const fs = require('fs');
 const url = require('url');                                                                                                                                 
 var path = require("path");                                                                                                                                 
 const execSync = require('child_process').execSync;                                                                                                         
-try {                                                                                                                                                       
-    var colors = require('colors');                                                                                                                         
-} catch (err) {                                                                                                                                             
-    console.log('\x1b[36mInstalling\x1b[37m the requirements');                                                                                             
-    execSync('yum install colors');                                                                                                                         
-    console.log('Done.');                                                                                                                                   
-    process.exit();                                                                                                                                         
-}                                                                                                                                                           
+                                                                                                                                                   
 var fileName = __filename;                                                                                                                                  
 var file = path.basename(fileName);                                                                                                                         
 try {                                                                                                                                                       
@@ -104,6 +97,6 @@ if (!process.argv[2] !== !process.argv[2].startsWith('http://') && !process.argv
     process.exit();
 }
 
-console.log("CC".rainbow + " | 提交成功！");
+console.log("CC 提交成功！");
 console.log('\x1b[36mLoading\x1b[37m proxy list : %s', process.argv[3]);
 console.log("\x1b[36mAttempting\x1b[37m to " + methods + " : %s || " + "\x1b[35m" + parsed.host + "\x1b[37m", process.argv[2]);

@@ -10,7 +10,7 @@ try {
     var colors = require('colors');                                                                                                                         
 } catch (err) {                                                                                                                                             
     console.log('\x1b[36mInstalling\x1b[37m the requirements');                                                                                             
-    execSync('npm install colors');                                                                                                                         
+    execSync('yum install colors');                                                                                                                         
     console.log('Done.');                                                                                                                                   
     process.exit();                                                                                                                                         
 }                                                                                                                                                           
